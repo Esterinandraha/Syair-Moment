@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaec;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #092f57;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #092f57;
+    color: #FFFFFF;
+}
+
+nav a.active {
+    background-color: #092f57;
+    color: #FFFFFF;
+}
+
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.gambar-fotografi {
+    max-width: 100%;
+    max-height: 300px;
+    min-width: 150px;
+    min-height: 100px;
+}
+
+.service p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.service button {
+    margin-top: 10px;
+    background-color: #0056b3;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service button:hover {
+    background-color: #0056b3;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn btn-primary btn-block {
+    width: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#cart {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#cart h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cart ul li {
+    margin-bottom: 5px;
+}
+
+#cart p {
+    color: #777777;
+    margin-top: 10px;
+}
+
+#cart-total {
+    font-weight: bold;
+}
+
+#cart button {
+    background-color: #28a745;
+}
+
+#cart button:hover {
+    background-color: #1d8231;
+}
