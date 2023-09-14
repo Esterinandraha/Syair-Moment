@@ -168,13 +168,13 @@ sup {
 }
 
 a {
-    color: #ffbd59;
+    color: #007bff;
     text-decoration: none;
     background-color: transparent
 }
 
 a:hover {
-    color: #ffbd59;
+    color: #0056b3;
     text-decoration: underline
 }
 
@@ -2301,7 +2301,7 @@ textarea.form-control {
 
 .form-check-input:disabled~.form-check-label,
 .form-check-input[disabled]~.form-check-label {
-    color: #6c757d
+    color: #9a031e
 }
 
 .form-check-label {

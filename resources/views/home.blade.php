@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="slides">
-                        <img src="images/home-awal.jpeg" alt="Image" class="img-fluid active">
+                        <img src="images/bagian services (1).jpeg" alt="Image" class="img-fluid active">
                         <img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
                         <img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid">
                         <img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid">
@@ -215,7 +215,7 @@
                         </span>
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Acara ulang tahun</a></h3>
+                                <h3><p href="#">Acara ulang tahun</p></h3>
                                 <div class="price ml-auto">
                                     <span>5.000.000</span>
                                 </div>
@@ -234,7 +234,7 @@
                         </span>
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Acara pernikahan</a></h3>
+                                <h3><p href="#">Acara pernikahan</p></h3>
                                 <div class="price ml-auto">
                                     <span>21.000.000</span>
                                 </div>
@@ -253,7 +253,7 @@
                         </span>
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Acara kelulusan</a></h3>
+                                <h3><p href="#">Acara kelulusan</p></h3>
                                 <div class="price ml-auto">
                                     <span>7.000.000</span>
                                 </div>
@@ -274,7 +274,7 @@
 
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Editorial</a></h3>
+                                <h3><p href="#">Editorial</p></h3>
                                 <div class="price ml-auto">
                                     <span>3.000.000</span>
                                 </div>

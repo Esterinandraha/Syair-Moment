@@ -97,13 +97,13 @@ h4,
 }
 
 .btn.btn-primary {
-    background: #1A374D;
-    border-color: #1A374D;
+    background: #9a031e;
+    border-color: #9a031e;
 }
 
 .btn.btn-primary:hover {
-    border-color: #1f425c;
-    background: #1f425c;
+    border-color: #f50d0d;
+    background: #f50d0d;
 }
 
 .btn.btn-outline-white {
@@ -112,7 +112,7 @@ h4,
 
 .btn.btn-outline-white:hover {
     background: #ffffff;
-    color: #1A374D !important;
+    color: #9a031e !important;
 }
 
 .text-white-opacity {
@@ -132,7 +132,7 @@ h4,
 .form-control:focus,
 .custom-select:active,
 .custom-select:focus {
-    border-color: #1A374D;
+    border-color: #9a031e;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -802,14 +802,14 @@ h4,
 
 .hero {
     padding: 7rem 0 10rem 0;
-    background: #6998AB;
+    background: #fb8b24;
     margin-bottom: 100px;
 }
 
 .hero.hero-inner {
     padding: 9rem 0 7rem 0;
     margin-bottom: auto;
-    background: #6998AB;
+    background: #fb8b24;
 }
 
 .hero h1 {
@@ -1018,7 +1018,7 @@ h4,
     content: "";
     width: 24px;
     height: 24px;
-    background: rgba(26, 55, 77, 0.1);
+    background: rgba(237, 238, 241, 0.1);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1039,7 +1039,7 @@ h4,
 }
 
 .media-1 h3 a {
-    color: #000000;
+    color: #fff8f8;
 }
 
 .media-1 .price {
@@ -1288,7 +1288,7 @@ h4,
 }
 
 .video-play-button:hover:after {
-    background-color: #204560;
+    background-color: #9a031e;
 }
 
 .video-play-button img {
@@ -1431,7 +1431,7 @@ h4,
 }
 
 .cta-section {
-    background: #1A374D;
+    background: #fb8b24;
 }
 
 .custom-block {
@@ -1478,7 +1478,7 @@ h4,
 
 .custom-accordion .accordion-item .btn-link[aria-expanded="true"] {
     font-weight: 700;
-    color: #1A374D;
+    color: #9a031e;
 }
 
 .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
@@ -1549,16 +1549,16 @@ h4,
 }
 
 .control input:checked~.control__indicator {
-    background: #1A374D;
+    background: #9a031e;
 }
 
 .control:hover input:not([disabled]):checked~.control__indicator,
 .control input:checked:focus~.control__indicator {
-    background: #204560;
+    background: #9a031e;
 }
 
 .control input:disabled~.control__indicator {
-    background: #e6e6e6;
+    background: #9a031e;
     opacity: 0.9;
     pointer-events: none;
 }
@@ -1588,11 +1588,11 @@ h4,
 }
 
 .control--checkbox input:disabled~.control__indicator:after {
-    border-color: #7b7b7b;
+    border-color: #9a031e;
 }
 
 .control--checkbox input:disabled:checked~.control__indicator {
-    background-color: #1A374D;
+    background-color: #9a031e;
     opacity: .2;
 }
 
@@ -1870,7 +1870,7 @@ h4,
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #1A374D;
+    background: #9a031e;
     display: inline-block;
     position: relative;
     color: #ffffff;
@@ -1889,7 +1889,7 @@ h4,
 }
 
 .site-footer .widget .social li a:hover {
-    background-color: #1A374D;
+    background-color: #9a031e;
     color: #ffffff;
 }
 

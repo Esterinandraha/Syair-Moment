@@ -2,14 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fffaec;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin-bottom: 80px;
     margin-top: 50px;
 }
@@ -27,12 +26,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #092f57;
+    background-color: #9a031e;
     color: #FFFFFF;
 }
 
 nav a.active {
-    background-color: #092f57;
+    background-color: #9a031e;
     color: #FFFFFF;
 }
 
@@ -53,9 +52,9 @@ nav a.active {
 }
 
 .service img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
 }
 
 .gambar-fotografi {
@@ -72,7 +71,7 @@ nav a.active {
 
 .service button {
     margin-top: 10px;
-    background-color: #0056b3;
+    background-color: #9a031e;
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
@@ -80,7 +79,7 @@ nav a.active {
 }
 
 .service button:hover {
-    background-color: #0056b3;
+    background-color: #9a031e;
 }
 
 video {
@@ -90,7 +89,7 @@ video {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #9a031e;
     color: #ffffff;
     border: none;
     width: auto;
@@ -104,7 +103,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #9a031e;
 }
 
 #cart {
