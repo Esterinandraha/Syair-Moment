@@ -152,7 +152,7 @@
                         </span>
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Acara ulang tahun</a></h3>
+                                <h3><span href="#">Acara ulang tahun</span></h3>
                                 <div class="price ml-auto">
                                     <span>5.000.000</span>
                                 </div>
@@ -171,7 +171,7 @@
                         </span>
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Acara pernikahan</a></h3>
+                                <h3><span href="#">Acara pernikahan</span></h3>
                                 <div class="price ml-auto">
                                     <span>21.000.000</span>
                                 </div>
@@ -190,7 +190,7 @@
                         </span>
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Acara kelulusan</a></h3>
+                                <h3><span href="#">Acara kelulusan</span></h3>
                                 <div class="price ml-auto">
                                     <span>7.000.000</span>
                                 </div>
@@ -211,7 +211,7 @@
 
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><a href="#">Editorial</a></h3>
+                                <h3><span href="#">Editorial</span></h3>
                                 <div class="price ml-auto">
                                     <span>3.000.000</span>
                                 </div>

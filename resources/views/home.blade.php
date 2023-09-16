@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="slides">
-                        <img src="images/bagian services (1).jpeg" alt="Image" class="img-fluid active">
+                        <img src="images/home-awal.jpeg" alt="Image" class="img-fluid active">
                         <img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
                         <img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid">
                         <img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid">
@@ -215,7 +215,7 @@
                         </span>
                         <div class="d-flex align-items-center">
                             <div>
-                                <h3><p href="#">Acara ulang tahun</p></h3>
+                                <h3><span href="#">Acara ulang tahun</span></h3>
                                 <div class="price ml-auto">
                                     <span>5.000.000</span>
                                 </div>
