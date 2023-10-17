@@ -28,13 +28,13 @@
             <a href="#" class="logo">Syair moment</a>
             <i class="bx bxs-shopping-bags" id="cart-icon"></i>
             <div class="cart">
-                <h2 class="cart-title"> Your Cart</h2>
+                <h2 class="cart-title">Kartu Pesanan</h2>
                 <!--bagian dalam kartu-->
                 <div class="cart-content">
 
 
                     <div class="cart-box">
-                        <img src="image.jpg" alt="" class="cart-img">
+                    <img src="image.jpeg" alt="" class="cart-img">
                         <div class="detail-box">
                             <div class="cart-product-title"></div>
                             <div class="cart-price">0</div>
@@ -58,64 +58,51 @@
         </div>
     </header>
     <section class="shop container">
-        <h2 class="section-title">Shop Produk</h2>
+        <h2 class="section-title">Jasa Yang Tersedia</h2>
 
         <div class="shop-content">
-            <!-- bagian jasa pertama-->
+            <!-- bagian jasa-->
             <div class="product-box">
-                <img src="images/bagian services (1).jpeg" alt="" class="product-img">
-                <h2 class="product-title">fotografi</h2>
-                <span class="price">234.000</span>
+                <img src="images/Pernikahan.jpeg" alt="" class="product-img">
+                <h2 class="product-title">Pernikahan</h2>
+                <span class="price">340.000</span>
                 <i class="bx bxs-shopping-bags add-cart"></i>
 
             </div>
-            <!-- bagian jasa pertama-->
+            <!-- bagian jasa-->
             <div class="product-box">
-                <img src="product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">ga tau</h2>
-                <span class="price">234.000</span>
+                <img src="images/bagian services (2).jpeg" alt="" class="product-img">
+                <h2 class="product-title">Tunangan</h2>
+                <span class="price">265.000</span>
                 <i class="bx bxs-shopping-bags add-cart"></i>
             </div>
-            <!-- bagian jasa pertama-->
+            <!-- bagian jasa-->
             <div class="product-box">
-                <img src="product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">Umam</h2>
-                <span class="price">234.000</span>
+                <video src="video/wedding-video.mp4" controls class="product-video"></video>
+                <h2 class="product-title">Video Tunangan</h2>
+                <span class="price">220.000</span>
                 <i class="bx bxs-shopping-bags add-cart"></i>
             </div>
-            <!-- bagian jasa pertama-->
+            <!-- bagian jasa-->
             <div class="product-box">
-                <img src="product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">rere</h2>
-                <span class="price">234.000</span>
+                <video src="video/wedding video.mp4" controls class="product-video"></video>
+                <h2 class="product-title">Video Pernikahan</h2>
+                <span class="price">260.000</span>
                 <i class="bx bxs-shopping-bags add-cart"></i>
             </div>
-            <!-- bagian jasa pertama-->
+            
+            <!-- bagian jasa-->
             <div class="product-box">
-                <img src="product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">xira</h2>
-                <span class="price">234.000</span>
+                <img src="images/wedding-photo 3.jpg" alt="" class="product-img">
+                <h2 class="product-title">Foto Drone</h2>
+                <span class="price">270.000</span>
                 <i class="bx bxs-shopping-bags add-cart"></i>
             </div>
-            <!-- bagian jasa pertama-->
+            <!-- bagian jasa-->
             <div class="product-box">
-                <img src="product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">lea</h2>
-                <span class="price">234.000</span>
-                <i class="bx bxs-shopping-bags add-cart"></i>
-            </div>
-            <!-- bagian jasa pertama-->
-            <div class="product-box">
-                <img src="product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">alaska</h2>
-                <span class="price">234.000</span>
-                <i class="bx bxs-shopping-bags add-cart"></i>
-            </div>
-            <!-- bagian jasa pertama-->
-            <div class="product-box">
-                <img src="product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">geografi</h2>
-                <span class="price">234.000</span>
+                <video src="video/wedding-drone.mp4" controls class="product-video"></video>
+                <h2 class="product-title"> Video Drone</h2>
+                <span class="price">280.000</span>
                 <i class="bx bxs-shopping-bags add-cart"></i>
             </div>
         </div>

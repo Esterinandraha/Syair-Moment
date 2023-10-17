@@ -1,32 +1,14 @@
-<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Untree.co">
-    <link rel="shortcut icon" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout card</title>
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap4" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/daterangepicker.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/wedding.css">
-
-    <title>Syair Moment</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
+
 
     <body>
     <nav>
@@ -36,55 +18,38 @@
             <li><a href="Wedding">Pernikahan</a></li>
             <li><a href="Acara">Acara</a></li>
             <li><a href="Fashion">Fashion</a></li>
-            <li><a href="Editorial" >Editorial</a></li>
-            <!-- Tambahkan tautan lain di sini -->
+            <li><a href="Editorial">Editorial</a></li>
         </ul>
     </nav>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Syair moment</a>
+            <i class="bx bxs-shopping-bags" id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Kartu Pesanan</h2>
+                <!--bagian dalam kartu-->
+                <div class="cart-content">
 
-    <div class="untree_co-section">
-        <div class="container">
-            <div class="row justify-content-center text-center mb-5">
-                <div class="col-lg-6">
-                    <h2 class="section-title text-center mb-3">Diskon untuk Pelanggan Baru</h2>
-                    <p>Kami menghargai kepercayaan Anda pada layanan kami. Sebagai tanda terima kasih, kami ingin memberikan Anda diskon 25% untuk layanan pertama. Jadwalkan layanan Anda sekarang dan nikmati manfaatnya!</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="media-1">
-                        <a href="#" class="d-block mb-3"><img src="images/hero-slider-1.jpg" alt="Image" class="img-fluid"></a>
-                        <span class="d-flex align-items-center loc mb-2">
-							<span class="icon-room mr-3"></span>
-                        <span>Italy</span>
-                        </span>
-                        <div class="d-flex align-items-center">
-                            <div>
-                                <h3><a href="#">Acara ulang tahun</a></h3>
-                                <div class="price ml-auto">
-                                    <span>5.000.000</span>
-                                    <button onclick="addToCart('Fotografi', 300)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
-                                </div>
-                            </div>
 
+                    <div class="cart-box">
+                        <div class="detail-box">
+                            <div class="cart-product-title"></div>
+                            <div class="cart-price">0</div>
+                            <input type="number" value="1" class="cart-quantity">
                         </div>
-
+                        <!--tanda unutuk menghapus belanjaan-->
+                        <i class="bx bx-trash cart-remove"></i>
                     </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="media-1">
-                        <a href="#" class="d-block mb-3"><img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid"></a>
-                        <span class="d-flex align-items-center loc mb-2">
-							<span class="icon-room mr-3"></span>
-                        <span>United States</span>
-                        </span>
-                        <div class="d-flex align-items-center">
-                            <div>
-                                <h3><a href="#">Acara pernikahan</a></h3>
-                                <div class="price ml-auto">
-                                    <span>21.000.000</span>
-                                    <button onclick="addToCart('Fotografi', 300)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
-                                </div>
-                            </div>
+                <!--total belanjaan-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">0</div>
+                </div>
+                <!--dapatkan sekarang-->
+                <button type="button" class="btn buy">Dapatkan Sekarang</button>
+                <!--penutup kartu-->
+                <i class="bx bx-x" id="close-cart"></i>
 
                         </div>
 

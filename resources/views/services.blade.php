@@ -90,7 +90,7 @@
             <a href="#" class="d-block mb-3"><img src="images/bagian services (1).jpeg" alt="Image" class="img-fluid"></a>
             <div class="d-flex">
               <div>
-                <h3><a href="Wedding" class="btn btn-primary btn-block">Pernikahan</a></h3>
+                <h3><a href="Wedding" class="btn btn-primary btn-block">PRE(WEDDING)</a></h3>
                 <p>"Kami adalah saksi bisu cinta Anda dan kami akan menceritakannya dengan indah.Bergabunglah dengan kami dalam perjalanan visual untuk merayakan cinta Anda"</p>
               </div>
             </div>
@@ -98,10 +98,10 @@
         </div>
         <div class="col-6 col-md-6 col-lg-3">
           <div class="media-1">
-            <a href="#" class="d-block mb-3"><img src="images/acara.jpeg" alt="Image" class="img-fluid"></a>
+            <a href="#" class="d-block mb-3"><img src="images/Acara (2).jpeg" alt="Image" class="img-fluid"></a>
             <div class="d-flex">
               <div>
-                <h3><a href="Acara" class="btn btn-primary btn-block">Acara</a></h3>
+                <h3><a href="Acara" class="btn btn-primary btn-block">PARTY</a></h3>
                 <p>"Tingkatkan dan abadikan momen tak terlupakan acara Anda melalui jasa kami yang mencakup fotografi, videografi, penggunaan drone, dan editorial."</p>
               </div>
             </div>
@@ -112,7 +112,7 @@
             <a href="#" class="d-block mb-3"><img src="images/wedding-photo 2.jpg" alt="Image" class="img-fluid"></a>
             <div class="d-flex">
               <div>
-                <h3><a href="Fashion" class="btn btn-primary btn-block">Fashion</a></h3>
+                <h3><a href="Fashion" class="btn btn-primary btn-block">FASHION</a></h3>
                 <p>"Transformasikan koleksi fashion Anda menjadi karya seni yang tak terlupakan."</p>
               </div>
             </div>
@@ -123,7 +123,7 @@
             <a href="#" class="d-block mb-3"><img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid"></a>
             <div class="d-flex">
               <div>
-                <h3><a href="Editorial" class="btn btn-primary btn-block">Editorial</a></h3>
+                <h3><a href="Editorial" class="btn btn-primary btn-block">EDITORIAL</a></h3>
                 <p>"Tingkatkan narasi visual Anda dengan jasa editorial foto dan video kami. Kami menciptakan kisah yang menginspirasi melalui gambar dan video yang penuh gaya, mendalam, dan berkualitas tinggi."</p>
               </div>
             </div>
@@ -139,7 +139,7 @@
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-lg-6">
                     <h2 class="section-title text-center mb-3">Diskon untuk Pelanggan Baru</h2>
-                    <p>Kami menghargai kepercayaan Anda pada layanan kami. Sebagai tanda terima kasih, kami ingin memberikan Anda diskon 25% untuk layanan pertama. Jadwalkan layanan Anda sekarang dan nikmati manfaatnya!</p>
+                    <p>Kami menghargai kepercayaan Anda pada layanan kami. Sebagai tanda terima kasih, kami ingin memberikan Anda diskon 15% untuk layanan pertama. Jadwalkan layanan Anda sekarang dan nikmati manfaatnya!</p>
                 </div>
             </div>
             <div class="row">
