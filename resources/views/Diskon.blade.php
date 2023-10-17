@@ -51,102 +51,47 @@
                 <!--penutup kartu-->
                 <i class="bx bx-x" id="close-cart"></i>
 
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="media-1">
-                        <a href="#" class="d-block mb-3"><img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid"></a>
-                        <span class="d-flex align-items-center loc mb-2">
-							<span class="icon-room mr-3"></span>
-                        <span>Malaysia</span>
-                        </span>
-                        <div class="d-flex align-items-center">
-                            <div>
-                                <h3><a href="#">Acara kelulusan</a></h3>
-                                <div class="price ml-auto">
-                                    <span>7.000.000</span>
-                                    <button onclick="addToCart('Fotografi', 300)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="media-1">
-                        <a href="#" class="d-block mb-3"><img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid"></a>
-
-                        <span class="d-flex align-items-center loc mb-2">
-							<span class="icon-room mr-3"></span>
-                        <span>Switzerland</span>
-                        </span>
-
-                        <div class="d-flex align-items-center">
-                            <div>
-                                <h3><a href="#">Video & Foto Editing</a></h3>
-                                <div class="price ml-auto">
-                                    <span>3.000.000</span>
-                                    <button onclick="addToCart('Fotografi', 300)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Diskon untuk Pelanggan Baru</h2>
+    
+        <div class="shop-content">
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <img src="images/fashion photo.jpg" alt="" class="product-img">
+                <h2 class="product-title">Fashion</h2>
+                <span class="price">240.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
 
-
-
-        <div id="cart">
-            <h2>Keranjang Belanja</h2>
-            <ul id="cart-items">
-                <!-- Item keranjang akan ditampilkan di sini -->
-            </ul>
-            <p>Total: <span id="cart-total">$0</span></p>
-            <button onclick="checkout()">Checkout</button>
+            </div>
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <img src="images/fahsion.jpg" alt="" class="product-img">
+                <h2 class="product-title">Drone Fashion</h2>
+                <span class="price">265.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <video src="video/fashion-video.mp4" controls class="product-video"></video>
+                <h2 class="product-title">Video Fashion</h2>
+                <span class="price">220.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
         </div>
-
-        <script>
-            let cartItems = [];
-            let cartTotal = 0;
-
-            function addToCart(itemName, price) {
-                cartItems.push(itemName);
-                cartTotal += price;
-                updateCart();
-            }
-
-            function updateCart() {
-                const cartList = document.getElementById('cart-items');
-                cartList.innerHTML = '';
-                cartItems.forEach(item => {
-                    const li = document.createElement('li');
-                    li.textContent = item;
-                    cartList.appendChild(li);
-                });
-                const cartTotalElement = document.getElementById('cart-total');
-                cartTotalElement.textContent = '$' + cartTotal;
-            }
-
-            function checkout() {
-                // Proses checkout
-                alert(`Total belanja: $${cartTotal}. Terima kasih telah berbelanja!`);
-                cartItems = [];
-                cartTotal = 0;
-                updateCart();
-            }
-        </script>
     </section>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
+
+    <script src="js/main.js"></script>
+
+</body>
+       
+</html>
+
+  
+
+
         <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -159,7 +104,4 @@
   <script src="js/daterangepicker.js"></script>
 
   <script src="js/typed.js"></script>
-  
-  <script src="js/custom.js"></script>
-    </body>
-</html>
+      

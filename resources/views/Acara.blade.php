@@ -2,31 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Untree.co">
-    <link rel="shortcut icon" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout card</title>
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap4" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/daterangepicker.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/wedding.css">
-
-    <title>Syair Moment</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
+
 
     <body>
     <nav>
@@ -40,107 +23,92 @@
             <!-- Tambahkan tautan lain di sini -->
         </ul>
     </nav>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Syair moment</a>
+            <i class="bx bxs-shopping-bags" id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Kartu Pesanan</h2>
+                <!--bagian dalam kartu-->
+                <div class="cart-content">
 
 
-    <section class="services-section">
-        <div class="service">
-            <h2>Fotografi</h2>
-            <img src="img/hero-4.jpg" alt="Layanan Fotografi">
-            <p>Harga: $200</p>
-            <button onclick="addToCart('Fotografi', 200)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
+                    <div class="cart-box">
+                        <div class="detail-box">
+                            <div class="cart-product-title"></div>
+                            <div class="cart-price">0</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <!--tanda unutuk menghapus belanjaan-->
+                        <i class="bx bx-trash cart-remove"></i>
+                    </div>
+                </div>
+                <!--total belanjaan-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">0</div>
+                </div>
+                <!--dapatkan sekarang-->
+                <button type="button" class="btn buy">Dapatkan Sekarang</button>
+                <!--penutup kartu-->
+                <i class="bx bx-x" id="close-cart"></i>
+
+            </div>
         </div>
-        <div class="service">
-        <h2>Ulang Tahun</h2>
-            <img src="images/ulang tahun photo.jpg" alt="Layanan Fotografi" class="gambar-fotografi">
-            <p>Harga: $300</p>
-            <button onclick="addToCart('Fotografi', 300)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
-        </div>
-        <div class="service">
-            <img src="img/project-6.jpg" alt="Layanan Fotografi">
-            <p>Harga: $150</p>
-            <button onclick="addToCart('Fotografi', 150)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Jasa Yang Tersedia</h2>
+
+        <div class="shop-content">
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <img src="images/ulang tahun.jpeg" alt="" class="product-img">
+                <h2 class="product-title">UlangTahun</h2>
+                <span class="price">240.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+
+            </div>
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <img src="images/wisuda.jpg" alt="" class="product-img">
+                <h2 class="product-title">Wisuda</h2>
+                <span class="price">265.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <video src="video/Ulangtahun (2).mp4" controls class="product-video"></video>
+                <h2 class="product-title">Video UlangTahun</h2>
+                <span class="price">220.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <video src="video/wisuda-video.mp4" controls class="product-video"></video>
+                <h2 class="product-title">Video Wisuda</h2>
+                <span class="price">260.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <img src="images/Acara (2).jpeg" alt="" class="product-img">
+                <h2 class="product-title">Acara lainnya</h2>
+                <span class="price">270.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- bagian jasa-->
+            <div class="product-box">
+                <video src="video/wedding-drone.mp4" controls class="product-video"></video>
+                <h2 class="product-title"> Video Drone</h2>
+                <span class="price">280.000</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
         </div>
     </section>
 
+    <script src="js/main.js"></script>
 
-    <section class="services-section">
-        <div class="service">
-            <h2>Videografi</h2>
-            <video controls width="300">
-                    <source src="video/ulangtahun.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            <p>Harga: $400</p>
-            <button onclick="addToCart('Videografi', 400)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
-        </div>
-        <div class="service">
-            <h2>Wisuda</h2>
-            <video controls width="300">
-                    <source src="video/wisuda-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            <p>Harga: $350</p>
-            <button onclick="addToCart('Videografi', 350)" class="btn btn-primary btn-block">Tambah ke Keranjang</button>
-        </div>
-    </section>
-
-        <div id="cart">
-            <h2>Keranjang Belanja</h2>
-            <ul id="cart-items">
-                <!-- Item keranjang akan ditampilkan di sini -->
-            </ul>
-            <p>Total: <span id="cart-total">$0</span></p>
-            <button onclick="checkout()">Checkout</button>
-        </div>
-
-        <script>
-            let cartItems = [];
-            let cartTotal = 0;
-
-            function addToCart(itemName, price) {
-                cartItems.push(itemName);
-                cartTotal += price;
-                updateCart();
-            }
-
-            function updateCart() {
-                const cartList = document.getElementById('cart-items');
-                cartList.innerHTML = '';
-                cartItems.forEach(item => {
-                    const li = document.createElement('li');
-                    li.textContent = item;
-                    cartList.appendChild(li);
-                });
-                const cartTotalElement = document.getElementById('cart-total');
-                cartTotalElement.textContent = '$' + cartTotal;
-            }
-
-            function checkout() {
-                // Proses checkout
-                alert(`Total belanja: $${cartTotal}. Terima kasih telah berbelanja!`);
-                cartItems = [];
-                cartTotal = 0;
-                updateCart();
-            }
-        </script>
-    </section>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/moment.min.js"></script>
-  <script src="js/daterangepicker.js"></script>
-
-  <script src="js/typed.js"></script>
-  
-  <script src="js/custom.js"></script>
-    </body>
+</body>
+       
 </html>
